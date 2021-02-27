@@ -1,0 +1,15 @@
+.header {
+    background-color: #0F0F0F;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 21px;
+    display: flex;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .header {
+        flex-direction: column;
+        padding-top: 2px;
+        padding-bottom: 10px;
+    }
+}

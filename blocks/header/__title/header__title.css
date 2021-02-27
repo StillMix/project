@@ -1,0 +1,17 @@
+.header__title {
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 13px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    color: #F4FFB3;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .header__title {
+        margin-left: 102px;
+    }
+}
