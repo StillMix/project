@@ -35,3 +35,8 @@
 @import url(../blocks/transition/transition.css);
 @import url(../blocks/transition/__link/transition__link.css);
 @import url(../blocks/transition/__wrrap/transition__wrrap.css);
+
+/**/
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);
