@@ -1,0 +1,36 @@
+.bio__image {
+    margin-left: 22px;
+    margin-top: 15px;
+    background: #C4C4C4;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 1280px) {
+    .bio__image {
+        width: 404px;
+        height: 512px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .bio__image {
+        width: 342px;
+        height: 471px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .bio__image {
+        width: 271px;
+        height: 358px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .bio__image {
+        margin-top: 35px;
+        width: 246px;
+        height: 299px;
+        margin-left: 40px;
+    }
+}

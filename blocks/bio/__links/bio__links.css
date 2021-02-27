@@ -1,0 +1,27 @@
+.bio__links {
+    display: flex;
+}
+
+@media screen and (min-width: 1280px) {
+    .bio__links {
+        margin-top: 116px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .bio__links {
+        margin-top: 77px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .bio__links {
+        margin-top: 139px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .bio__links {
+        margin-top: 32px;
+    }
+}
