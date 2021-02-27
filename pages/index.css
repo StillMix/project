@@ -29,3 +29,9 @@
 @import url(../blocks/bio/__link/bio__link.css);
 @import url(../blocks/bio/__educate/bio__educate.css);
 @import url(../blocks/bio/__active/bio__active.css);
+
+/**/
+
+@import url(../blocks/transition/transition.css);
+@import url(../blocks/transition/__link/transition__link.css);
+@import url(../blocks/transition/__wrrap/transition__wrrap.css);

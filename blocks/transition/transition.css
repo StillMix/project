@@ -1,0 +1,10 @@
+.transition {
+    display: flex;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .transition {
+        flex-direction: column;
+    }
+}
