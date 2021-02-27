@@ -1,0 +1,32 @@
+.linear {
+    text-align: center;
+    border-bottom: 2.5px solid #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 1280px) {
+    .linear {
+        max-width: 1100px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .linear {
+        max-width: 952px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .linear {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .linear {
+        max-width: 100%;
+    }
+}

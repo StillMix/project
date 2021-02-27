@@ -13,3 +13,12 @@
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__pod/header__pod.css);
+
+/**/
+
+@import url(../blocks/linear/linear.css);
+@import url(../blocks/linear/__title/linear__title.css);
+
+/**/
+
+@import url(../blocks/bio/bio.css);
