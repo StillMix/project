@@ -3,6 +3,7 @@
     margin-top: 15px;
     background: #C4C4C4;
     border-radius: 15px;
+    object-fit: cover;
 }
 
 @media screen and (min-width: 1280px) {
