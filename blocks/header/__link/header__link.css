@@ -6,6 +6,10 @@
     line-height: 21px;
     color: #FFFFFF;
     margin-top: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .header__link:hover {
