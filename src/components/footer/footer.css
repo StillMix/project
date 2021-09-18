@@ -1,0 +1,45 @@
+.footer{
+  display: flex;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1312px;
+  background: #ffffff;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 13px;
+}
+
+.creators{
+  margin-top: 24px;
+  margin-left: 37px;
+  margin-bottom: 30px;
+  font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+
+color: #959595;
+}
+
+.logo__vk{
+  position: absolute;
+  top: 19px;
+  right: 106px;
+}
+
+.logo__instagram{
+  position: absolute;
+  top: 19px;
+  right: 54px;
+}
+
+.logo__vk:hover{
+  opacity: 0.8;
+  cursor: pointer
+}
+
+.logo__instagram:hover{
+  opacity: 0.8;
+  cursor: pointer
+}
