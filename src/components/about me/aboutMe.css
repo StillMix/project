@@ -8,7 +8,7 @@
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 12px;
-  margin-bottom: 13px;
+  margin-bottom: 39px;
 }
 
 .me{
@@ -143,7 +143,7 @@ line-height: 27px;
 
   @media screen and (min-width: 768px) and (max-width: 1023px){
     .aboutMe{
-      margin-bottom: 75px;
+      margin-bottom: 104px;
     }
 
     .me{
@@ -184,7 +184,7 @@ line-height: 27px;
 
   @media screen and (min-width: 320px) and (max-width: 767px){
     .aboutMe{
-      margin-bottom: 180px;
+      margin-bottom: 209px;
     }
     .me{
       max-width: 260px;
