@@ -5,8 +5,11 @@ import avatar from '../../images/avatar.svg';
 function aboutMe() {
   return (
       <div className="aboutMe">
+        <div className="aboutMe__container">
       <div className="me">
+        <div className="avatar__container">
         <img alt="avatar" src={avatar} className="avatar" />
+        </div>
         <p className="name">Маргарита</p>
         <p className="surname">Степанова</p>
         <p className="about">Учитель биологии и химии</p>
@@ -25,6 +28,7 @@ function aboutMe() {
           <p className="portfolio__me-text">по специальности «Биология»
 с дополнительной специальностью «Химия» Работаю по специальности с 2000г.
 С 2017 года работаю учителем в «МБОУ Средняя общеобразовательная школа им. А. Невского» Курского района.</p>
+      </div>
       </div>
       </div>
   );
