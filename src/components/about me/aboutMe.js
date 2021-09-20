@@ -13,7 +13,9 @@ function aboutMe() {
         <p className="name">Маргарита</p>
         <p className="surname">Степанова</p>
         <p className="about">Учитель биологии и химии</p>
-        <div className="line"></div>
+        <div className="line-container">
+           <div className="line"></div>
+        </div>
       </div>
       <div className="portfolio__me">
           <p className="greeting">Здравствуйте!</p>
