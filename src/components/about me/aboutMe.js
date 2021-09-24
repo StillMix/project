@@ -2,7 +2,7 @@ import './aboutMe.css';
 import avatar from '../../images/avatar.svg';
 
 
-function aboutMe() {
+function aboutMe(props) {
   return (
       <div className="aboutMe">
         <div className="aboutMe__container">
@@ -21,7 +21,7 @@ function aboutMe() {
           <p className="greeting">Здравствуйте!</p>
           <div className="link">
             <div className="link__me">
-               <p className="link__name">Образование</p>
+               <p onClick={props.btnToMain} className="link__name">Образование</p>
             </div>
             <div className="link__me">
             <p className="link__name">Деятельность</p>

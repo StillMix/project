@@ -1,0 +1,121 @@
+.education{
+  width: 100%;
+  height: 60%;
+  position: fixed;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+}
+
+.education__container{
+  width: 68%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.education__name{
+  font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 41px;
+margin-top: 0;
+margin-bottom: 0;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+.slider{
+  height: 86%;
+  position: relative;
+  margin-top: 36px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-slider {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 90%;
+}
+
+.slick-slider img{
+  object-fit: cover;
+  border: none;
+  height: 100%;
+  width: 90%;
+}
+
+.slick-slider button{
+  object-fit: cover;
+  border: none;
+  height: 10%;
+}
+
+.slick-track div{
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.slick-active{
+  margin-right:auto;
+  margin-left: auto;
+}
+
+.slick-slide{
+  margin-right:auto;
+  margin-left: auto;
+}
+
+.slick-cloned{
+
+  transition: 1s;
+  height: 100%;
+}
+
+.slick-photo{
+  transition: 1s;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.slider-prev{
+  background-image: url(../../images/leftArrow.svg);
+  top: 49%; left: -6%; bottom: 0; right: auto;
+  background-repeat:no-repeat;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  height: 8%;
+  width: 8%;
+  cursor: pointer;
+}
+
+.slider-next{
+  background-image: url(../../images/rightArrow.svg);
+  top: 49%; left: auto; bottom: 0; right: -6%;
+  background-repeat:no-repeat;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  height: 8%;
+  width: 8%;
+  cursor: pointer;
+}
+
+.slider-prev:hover{
+  opacity: 0.7;
+}
+
+.slider-next:hover{
+  opacity: 0.7;
+}
+
+
