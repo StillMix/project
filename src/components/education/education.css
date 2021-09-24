@@ -88,7 +88,7 @@ color: #FFFFFF;
 
 .slider-prev{
   background-image: url(../../images/leftArrow.svg);
-  top: 49%; left: -6%; bottom: 0; right: auto;
+  top: 49%; left: -4%; bottom: 0; right: auto;
   background-repeat:no-repeat;
   background-color: transparent;
   border: none;

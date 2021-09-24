@@ -16,8 +16,12 @@ function App(props) {
     setselectedCard(null);
 }
 
-  function btnToMain() {
+  function btnToEducation() {
     props.history.push('/education');
+  }
+
+  function btnToMain() {
+    props.history.push('/main');
   }
 
   function handleCardClick(link){
@@ -27,7 +31,7 @@ function App(props) {
 
   return (
     <div className="App">
-         <Header/>
+         <Header btnToMain={btnToMain}/>
          <Switch>
 
 
@@ -40,7 +44,7 @@ function App(props) {
            </Route>
 
            <Route exact path="/main">
-           <AboutMe btnToMain={btnToMain}/>
+           <AboutMe btnToEducation={btnToEducation}/>
            </Route>
 
            <Route exact path="/education">

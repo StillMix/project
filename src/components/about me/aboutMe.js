@@ -21,7 +21,7 @@ function aboutMe(props) {
           <p className="greeting">Здравствуйте!</p>
           <div className="link">
             <div className="link__me">
-               <p onClick={props.btnToMain} className="link__name">Образование</p>
+               <p onClick={props.btnToEducation} className="link__name">Образование</p>
             </div>
             <div className="link__me">
             <p className="link__name">Деятельность</p>
