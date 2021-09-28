@@ -57,29 +57,32 @@ color: #FFFFFF;
 }
 
 .slick-track div{
-  height: 500px;
+  height: 52vh;
   width: 100%;
   overflow: hidden;
 
 }
 
 .slick-active{
+  cursor: pointer;
   margin-right:auto;
   margin-left: auto;
 }
 
 .slick-slide{
+  cursor: pointer;
   margin-right:auto;
   margin-left: auto;
 }
 
 .slick-cloned{
-
+  cursor: pointer;
   transition: 1s;
   height: 100%;
 }
 
 .slick-photo{
+  cursor: pointer;
   transition: 1s;
   height: 100%;
   width: 100%;
