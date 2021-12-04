@@ -6,6 +6,8 @@ import ImagePopup from './ImagePopup/ImagePopup.js';
 import { useState } from 'react';
 import Footer from './footer/footer';
 import Education from './education/education';
+import Activity from './activity/activity';
+import ActivityCardOpen from './activityCardOpen/activityCardOpen';
 
 function App(props) {
   const [isImagePopupOpen, setisImagePopupOpen] = useState(false);
@@ -20,6 +22,10 @@ function App(props) {
     props.history.push('/education');
   }
 
+  function btnToActivity() {
+    props.history.push('/activity');
+  }
+
   function btnToMain() {
     props.history.push('/main');
   }
@@ -31,7 +37,7 @@ function App(props) {
 
   return (
     <div className="App">
-         <Header btnToMain={btnToMain}/>
+         <Header btnToActivity={btnToActivity} btnToMain={btnToMain}/>
          <Switch>
 
 
@@ -49,6 +55,15 @@ function App(props) {
 
            <Route exact path="/education">
              <Education onCardClick={handleCardClick}/>
+           </Route>
+
+
+           <Route exact path="/activity">
+             <Activity/>
+           </Route>
+
+           <Route exact path="/activity/:userID">
+             <ActivityCardOpen/>
            </Route>
 
          </Switch>

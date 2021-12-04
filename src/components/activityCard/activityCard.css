@@ -1,0 +1,67 @@
+.activityCard{
+  margin-bottom: 68px;
+  padding: 0;
+  display: flex;
+  position: relative;
+  background: #F3F3F3;
+  width: 99%;
+  border-radius: 12px;
+}
+
+.activityCard__container{
+  width: 50%;
+}
+
+.activityCard__image{
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+}
+
+.activityCard__name{
+  margin-top: 1px;
+  margin-left: 21px;
+  font-family: "Open Sans", "Arial", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+}
+.activityCard__data{
+  font-family: "Open Sans", "Arial", sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 20px;
+margin-left: 21px;
+  margin-top: 79px;
+}
+
+.activityCard__btn{
+  padding-top: 7px;
+  text-align: center;
+  background: #FFFFFF;
+box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+width: 123px;
+height: 33px;
+position: absolute;
+bottom: 12px;
+right: 11px;
+}
+
+.activityCard__btn:hover{
+  cursor: pointer;
+  opacity: 0.8;
+  color: rgb(44, 44, 44);
+}
+
+.activityCard__btn-text{
+  text-decoration: none;
+  color: #000;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+}

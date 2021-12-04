@@ -8,7 +8,7 @@ function header(props) {
      <div className="header">
        <img alt="logo" src={Logo} className="logo" />
        <p className="main" onClick={props.btnToMain}>Главная</p>
-       <p className="portfolio">Активности</p>
+       <p className="portfolio" onClick={props.btnToActivity}>Активности</p>
        <img alt="support" src={Support} className="support"/>
      </div>
      </>
